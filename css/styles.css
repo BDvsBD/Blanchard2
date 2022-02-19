@@ -118,11 +118,11 @@ button {
   transition: border .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out;
 
 }
-
+@media (any-hover:hover) {
 .link:hover {
   border-bottom: 1px solid var(--Amethyst);
 }
-
+}
 .link:focus-visible {
   color: var(--White);
   background-color: var(--RoyalPurple);
@@ -175,8 +175,10 @@ button {
   transition: color 0.3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .header__link:hover {
   color: var(--Heliotrope);
+}
 }
 
 .header__link:focus-visible {
@@ -193,8 +195,10 @@ button {
   transition: color 0.3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .header__right:hover {
   color: var(--Heliotrope);
+}
 }
 
 .header__right:focus-visible {
@@ -458,8 +462,10 @@ button {
   display: none;
 }
 
+@media (any-hover:hover) {
 .search-svg:hover {
   fill: var(--Heliotrope);
+}
 }
 
 .search-svg:active {
@@ -514,8 +520,10 @@ button {
   color: transparent;
 }
 
+@media (any-hover:hover) {
 .search-input:hover {
   border-bottom: 1px solid var(--Heliotrope);
+}
 }
 
 .search-input:active {
@@ -624,8 +632,10 @@ button {
   transition: border 0.3s ease-in-out, outline 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .hero__btn:hover {
   border: 3px solid var(--BilobaFlower);
+}
 }
 
 .hero__btn:focus-visible {
@@ -729,8 +739,10 @@ button {
   padding: 2px 16px 0px 4px;
 }
 
+@media (any-hover:hover) {
 .choices__inner:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
 }
 
 .choices__inner:focus-visible {
@@ -851,10 +863,12 @@ button {
   transition: .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .gallery-swiper__slide:hover:before,
 .gallery-swiper__slide:active:before {
   z-index: 1;
   opacity: 1;
+}
 }
 
 .gallery-swiper__slide:focus-visible {
@@ -914,13 +928,15 @@ button {
   align-items: center;
   height: 26px;
 }
-
-.gallery-swiper-button-next:hover,
-.gallery-swiper-button-prev:hover,
-.publication-swiper-button-next:hover,
-.publication-swiper-button-prev:hover {
-  background-color: var(--Amethyst);
+@media (any-hover:hover) {
+  .gallery-swiper-button-next:hover,
+  .gallery-swiper-button-prev:hover,
+  .publication-swiper-button-next:hover,
+  .publication-swiper-button-prev:hover {
+    background-color: var(--Amethyst);
+  }
 }
+
 
 .gallery-swiper-button-next:active,
 .gallery-swiper-button-prev:active,
@@ -944,10 +960,12 @@ button {
   opacity: .35;
 }
 
+@media (any-hover:hover) {
 .swiper-button-disabled:hover {
   background: var(--DoveGray);
   opacity: .35;
   border: 2px solid transparent;
+}
 }
 
 .gallery-swiper-pagination,
@@ -1050,8 +1068,10 @@ button {
   transition: filter 0.3s ease-in-out, border .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .catalog__nav-btn:hover {
   filter: drop-shadow(0px 0px 20px rgba(157, 92, 208, 0.7));
+}
 }
 
 .catalog__nav-btn:focus-visible {
@@ -1252,16 +1272,20 @@ html .ui-button.ui-state-disabled:active {
   transition: border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .date:hover {
   z-index: 2;
   color: var(--Amethyst);
   border-top: 1px solid var(--Amethyst);
   border-bottom: 1px solid var(--Amethyst);
 }
+}
 
+@media (any-hover:hover) {
 .date:hover .mark {
   background-color: var(--BilobaFlower);
   border: 1px solid var(--BilobaFlower);
+}
 }
 
 .date:focus-visible {
@@ -1330,9 +1354,11 @@ html .ui-button.ui-state-disabled:active {
   transition: color .3s ease-in-out, border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .painters__btn:hover {
   color: var(--Amethyst);
   border-bottom: 1px solid var(--Amethyst);
+}
 }
 
 .painters__btn:focus-visible {
@@ -1496,10 +1522,11 @@ html .ui-button.ui-state-disabled:active {
   transition: color .3s ease-in-out, border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
-
+@media (any-hover:hover) {
 .events__card-link:hover {
   color: var(--RoyalPurple);
   border-bottom: 1px solid var(--RoyalPurple);
+}
 }
 
 .events__card-link:focus-visible {
@@ -1529,9 +1556,11 @@ html .ui-button.ui-state-disabled:active {
   transition: color .3s ease-in-out, border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .events__card-btn:hover {
   color: var(--BilobaFlower);
   border: 2px solid var(--BilobaFlower);
+}
 }
 
 .events__card-btn:focus-visible {
@@ -1598,12 +1627,16 @@ html .ui-button.ui-state-disabled:active {
   transition: opacity .3s ease-in-out, color .3s ease-in-out, transform .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .checkbox__label:hover {
   color: var(--Heliotrope);
 }
+}
 
+@media (any-hover:hover) {
 .checkbox__label:hover .checkbox__mark {
   border-color: var(--Heliotrope);
+}
 }
 
 .checkbox__label:active {
@@ -1712,8 +1745,10 @@ input::-webkit-inner-spin-button {
   transition: background-color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .form-choice:hover {
   background-color: var(--Amethyst);
+}
 }
 
 .form-choice:focus {
@@ -1812,10 +1847,11 @@ input::placeholder {
   transition: outline .3s ease-in-out, border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
-
+@media (any-hover:hover) {
 .publication__card-btn:hover {
   border: 2px solid var(--Amethyst);
   background-color: var(--Amethyst);
+}
 }
 
 .publication__card-btn:focus-visible {
@@ -1910,8 +1946,10 @@ input::placeholder {
   transition: fill .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .tooltip-button:hover .tooltip-svg {
   fill: var(--BilobaFlower);
+}
 }
 
 .tooltip-button:focus-visible .tooltip-svg {
@@ -1993,9 +2031,11 @@ input::placeholder {
   max-width: 1450px;
 }
 
+@media (any-hover:hover) {
 .projects-swiper-button-next:hover,
 .projects-swiper-button-prev:hover {
   background-color: var(--BilobaFlower);
+}
 }
 
 .projects-swiper-button-next:active,
@@ -2040,8 +2080,10 @@ input::placeholder {
   transition: filter 0.3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .partners__item:hover .partners__image-1920 {
   filter: unset;
+}
 }
 
 .projects-swiper-container {
@@ -2125,8 +2167,10 @@ input::placeholder {
   transition: border .3s ease-in-out, background-color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .form-item:hover {
   background-color: var(--Gall);
+}
 }
 
 .form-item:focus-visible {
@@ -2158,10 +2202,12 @@ input::placeholder {
   transition: outline .3s ease-in-out, border .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .form-btn:hover {
   color: var(--White);
   border: 2px solid var(--Amethyst);
   background-color: var(--Amethyst);
+}
 }
 
 .form-btn:focus-visible {
@@ -2232,9 +2278,11 @@ input::placeholder {
   transition: opacity .3s ease-in-out, border .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .contacts-icon:hover {
   opacity: 0.5;
   outline: none;
+}
 }
 
 .social-icon:focus-visible {
@@ -2278,8 +2326,10 @@ input::placeholder {
   transition: fill .3s ease-in-out;
 }
 
+@media (any-hover:hover) {
 .footer-icon:hover {
   fill: var(--White);
+}
 }
 
 .footer-social__link:focus .footer-icon {
@@ -2289,7 +2339,6 @@ input::placeholder {
 .footer-icon:active {
   fill: var(--Amethyst);
 }
-
 
 @media (max-width: 1629px) {
 
@@ -2520,6 +2569,7 @@ input::placeholder {
     }
 
     @media (max-width: 1024px) {
+
       .container {
         padding: 0 50px;
       }
@@ -2585,11 +2635,14 @@ input::placeholder {
         transition: border .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out, transform .5s ease-in-out;
       }
 
+      @media (any-hover:hover) {
       .burger:hover .burger-line,
       .burger:hover .burger-line::before,
       .burger:hover .burger-line::after {
         background-color: var(--Heliotrope);
       }
+    }
+
 
       .burger:focus-visible .burger-line,
       .burger:focus-visible .burger-line::before,
@@ -2720,11 +2773,12 @@ input::placeholder {
         transform: translate3d(-1px, 2px, 0px);
       }
 
-
+      @media (any-hover:hover) {
       .enter:hover {
         color: var(--Heliotrope);
         border: 2px solid var(--Heliotrope);
       }
+    }
 
       .enter:focus-visible {
         background-color: var(--RoyalPurple);
@@ -2766,9 +2820,11 @@ input::placeholder {
         transition: fill 0.3s ease-in-out;
       }
 
+      @media (any-hover:hover) {
       .search-svg-big:hover {
         fill: var(--Heliotrope);
       }
+    }
 
       .search-svg-big:focus-visible {
         background-color: var(--RoyalPurple);
@@ -2786,12 +2842,14 @@ input::placeholder {
         transition: fill .3s ease-in-out;
       }
 
+      @media (any-hover:hover) {
       .form-btn-open:hover path,
       .form-btn-open:hover rect,
       .form-btn-submit:hover path,
       .form-btn-submit:hover rect {
         fill: var(--Heliotrope);
       }
+    }
 
       .form-btn-submit {
         margin-right: 10px;
@@ -3067,6 +3125,7 @@ input::placeholder {
   }
 
   @media (max-width: 851px) {
+
     .form-btn-open.active {
       opacity: 1;
       cursor: pointer;
@@ -3495,13 +3554,17 @@ input::placeholder {
         display: none;
       }
 
+      @media (any-hover:hover) {
       .checkbox__label:hover {
         color: var(--Heliotrope);
       }
+    }
 
+    @media (any-hover:hover) {
       .checkbox__label:hover .checkbox__mark {
         border-color: var(--Heliotrope);
       }
+    }
 
       .checkbox__label:active {
         color: var(--Heliotrope);
@@ -3641,6 +3704,10 @@ input::placeholder {
         width: 55%;
       }
 
+      .partners__image-1920 {
+        max-height: 45px;
+      }
+
       .contacts__heading,
       .contacts__left {
         padding-left: 15px;
@@ -3749,6 +3816,7 @@ input::placeholder {
     }
 
     @media (max-width: 553px) {
+
       .container {
         padding: 0 15px;
       }
@@ -3902,7 +3970,6 @@ input::placeholder {
       }
 
       .hero__btn {
-        margin-left: 26px;
         padding: 9px 16px;
         font-size: 12px;
         line-height: 16px;
